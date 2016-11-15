@@ -1,0 +1,18 @@
+@after-module './third-party';
+
+html,
+body,
+body > :global(.ember-view) {
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  composes: alert alert-success from global;
+}

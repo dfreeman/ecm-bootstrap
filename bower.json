@@ -1,6 +1,7 @@
 {
   "name": "css-modules-with-sass",
   "dependencies": {
+    "bootstrap": "4.0.0-alpha.5",
     "ember": "~2.9.0",
     "ember-cli-shims": "0.1.3"
   }
